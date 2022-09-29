@@ -1,0 +1,156 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #C6C6C6
+    }
+
+.container {
+        height: 670px;
+        width: 375px;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: white;
+    }
+    
+header {
+    height: 70px;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.8px solid #C6C6C6;
+}
+
+.container sub-header{
+    height: 65px;
+    top: 0%;
+    bottom: 10%;
+    width: 375px;
+    line-height: 30px;
+    background-color: whitesmoke;
+    justify-content: space-between;
+}
+
+main {
+    position: relative;
+    margin-bottom: 0;
+    border-top: 1.8px solid #C6C6C6;
+}
+
+.user-avatar {
+    margin-right: 6px;
+    bottom: 25px;
+    top: 2%;
+}
+
+.logo {
+    width: 127px;
+    height: 50px;
+    margin-left: 10px;
+    bottom:28px;
+}
+
+.user-avatar,
+.avatar-artist {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.post-data {
+    height: 54px;
+    display: flex;
+    align-items: center;
+}
+
+.text p {
+    margin: 0 0 0 7px;
+}
+
+.container,
+.container-photo {
+    width: 375px;
+}
+
+
+.container #carousel-actions {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width:24%;
+    justify-content: space-between;
+    top: 85px; 
+    bottom: 150%;
+    text-decoration: none;
+}
+
+ .container #carousel-actions button {
+    background:  transparent;
+    text-decoration: none;
+    border: 0;
+    font-size: 16px;
+    color: black;
+    font-weight:bold;
+    cursor: pointer;
+    width: 29px;
+    height: 15px;
+}
+
+#carousel-actions #previous,
+.post-data .avatar-artist{
+    margin-left: 6px;
+}
+
+#carousel-actions #next{
+    left: 20em ;
+    right: 1em;
+    position: absolute;
+   
+}
+
+.icons {
+    width: 105px;
+    margin: 15px 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.icon {
+    height: 23px;
+    width: 23px;
+}
+
+#comments {
+    margin-top: 0;
+}
+
+.likes,
+.section-comment {
+    margin: 12px 0 0 13px;
+}
+
+#heart:active {
+    opacity: 0.7;
+}
+
+.likes, 
+.name,
+span {
+    font-weight: 700;
+}
+
+.name,
+.likes,
+.section-comment {
+    font-size: 13px;
+}
+
+.birth-place {
+    font-size: 12px;
+}
+
+
+/* layout */
